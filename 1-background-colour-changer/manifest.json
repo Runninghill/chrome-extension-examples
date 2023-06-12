@@ -6,5 +6,11 @@
   "action": {
     "default_popup": "popup/popup.html"
   },
+  "content_scripts": [
+    {
+      "js": ["content-script.js"],
+      "matches": ["https://*/*", "http://*/*"]
+    }
+  ],
   "host_permissions": ["<all_urls>"]
 }
