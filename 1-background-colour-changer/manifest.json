@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Background Colour Changer",
+  "version": "1.0",
+  "permissions": [],
+  "action": {
+    "default_popup": "popup/popup.html"
+  },
+  "host_permissions": ["<all_urls>"]
+}
